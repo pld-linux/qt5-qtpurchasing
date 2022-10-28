@@ -9,12 +9,12 @@
 Summary:	The Qt5 Purchasing library
 Summary(pl.UTF-8):	Biblioteka Qt5 Purchasing
 Name:		qt5-%{orgname}
-Version:	5.15.6
+Version:	5.15.7
 Release:	1
 License:	LGPL v3+ or commercial
 Group:		Libraries
 Source0:	https://download.qt.io/official_releases/qt/5.15/%{version}/submodules/%{orgname}-everywhere-opensource-src-%{version}.tar.xz
-# Source0-md5:	beef9ec9e04c49d53a9d18653f3b129b
+# Source0-md5:	d4a34175c16263a8bc4199ff97c8d029
 URL:		https://www.qt.io/
 BuildRequires:	Qt5Core-devel >= %{qtbase_ver}
 BuildRequires:	Qt5Qml-devel >= %{qtdeclarative_ver}
