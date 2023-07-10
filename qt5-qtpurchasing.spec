@@ -52,7 +52,7 @@ Ten pakiet zawiera bibliotekę Qt5 Purchasing.
 Summary:	The Qt5 Purchasing library
 Summary(pl.UTF-8):	Biblioteka Qt5 Purchasing
 Group:		Libraries
-Requires:	Qt5Core >= %{qtbase_ver}
+%requires_eq_to	Qt5Core Qt5Core-devel
 Requires:	Qt5Network >= %{qtbase_ver}
 
 %description -n Qt5Purchasing
